@@ -1,4 +1,7 @@
 // Destructure pokemon types props here :)
-export const Type = () => {
-  return <div>Type</div>;
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+export const Type = ({ types }) => {
+  return <span>{types}</span>;
 };
